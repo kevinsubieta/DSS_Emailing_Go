@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/streadway/amqp"
 	"io/ioutil"
 	"log"

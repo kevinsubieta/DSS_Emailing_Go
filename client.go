@@ -41,7 +41,7 @@ func randInt(min int, max int) int {
 
 func main() {
 	router := mux.NewRouter()
-	router.HandleFunc("/documents", createRequestToWriteFile).Methods("POST")
+	router.HandleFunc("/email", createRequestToWriteFile).Methods("POST")
 	log.Fatal(http.ListenAndServe(":9001", router))
 
 }
